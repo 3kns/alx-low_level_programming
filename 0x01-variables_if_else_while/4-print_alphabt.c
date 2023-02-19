@@ -16,14 +16,11 @@ int main(void)
 	char c;
 
 	c = 'a';
-	while (c <= 'z')
+	while (c != 'e' && c != 'q')
 	{
 		putchar(c);
 		c++;
-		if (c == 'e' && c == 'q')
-		{
-			continue;
-		} else if (c > 'z')
+		if (c > 'z')
 		{
 			break;
 		}
