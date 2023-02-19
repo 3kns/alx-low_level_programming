@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.lib>
+#include <stdlib.h>
 /**
  * main - Entry point with "void" argument
  *
@@ -12,11 +12,12 @@ int main(void)
 {
 	char ch = 'a';
 
-	do {
+	while (ch <= 'z')
+	{
 		putchar(ch);
-		ch++
-	} while (ch <= 'z');
-	break;
+		ch++;
+	}
+	putchar ('\n');
 
 	return (0);
 }
