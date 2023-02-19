@@ -20,13 +20,14 @@ int main(void)
 	{
 		putchar(c);
 		++c;
-		if (c == 'e')
-		{
+			if (c == 'e')
+			{
+				continue;
+			} else if (c == 'q')
+			{
 			continue;
-		} else if (c == 'q')
-		{
-			continue;
-		} else if (c > 'z')
+			}
+		if (c > 'z')
 		{
 			break;
 		}
