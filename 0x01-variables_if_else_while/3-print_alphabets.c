@@ -13,7 +13,7 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
-		c++;
+		++c;
 		if (c == 'z')
 		{
 			break;
@@ -22,7 +22,7 @@ int main(void)
 	while (C <= 'Z')
 	{
 		putchar(C);
-		C++;
+		++C;
 		if (C == 'Z')
 		{
 			break;
