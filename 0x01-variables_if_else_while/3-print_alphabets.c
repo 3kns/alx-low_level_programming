@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
- /**
-  * main - Entry point
-  *
-  * Description: "printing alphabets in lower and uoper cases"
-  *
-  * Return - Always 0 (Success)
-  */
+/**
+ * main - Entry point
+ *
+ * main: "Entry point returns a value of 0"
+ *
+ * @void: "always return value 0"
+ *
+ * Description: "the program's description"
+ *
+ *Return: "Always 0 (Success)"
+ */
 int main(void)
 {
 	char c, C;
@@ -18,7 +22,7 @@ int main(void)
 	{
 		putchar(c);
 		++c;
-		if (c == 'z')
+		if (c > 'z')
 		{
 			break;
 		}
@@ -27,7 +31,7 @@ int main(void)
 	{
 		putchar(C);
 		++C;
-		if (C == 'Z')
+		if (C > 'Z')
 		{
 			break;
 		}
