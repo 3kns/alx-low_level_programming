@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point returns a value of 0
+ * main - Entry point
+ *
+ * main: "Entry point returns a value of 0"
+ *
+ * @void: "always return value 0"
  *
  * Description: "the program's description"
  *
- * Return - Always 0 (Success)
+ * Return: "Always 0 (Success)"
  *
  */
-void main(void)
+int main(void)
 {
 	char ch = 'a';
 
@@ -18,6 +22,4 @@ void main(void)
 		ch++;
 	}
 	putchar ('\n');
-
-	return;
 }
