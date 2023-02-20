@@ -18,17 +18,14 @@ int main(void)
 	c = 'a';
 	while (c <= 'z')
 	{
-		putchar(c);
-		if (c == 'e' && c == 'q')
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+			c++;
+		}
+		else
 		{
 			continue;
-		}
-
-		c++;
-
-		if (c > 'z')
-		{
-			break;
 		}
 	}
 	putchar('\n');
