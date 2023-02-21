@@ -1,19 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
- *
- * main: "Entry point returns a value of 0"
- *
- * @void: "always return value 0"
- *
- * Description: "the program's description"
- *
- * Return: "Always 0 (Success)"
+ * @void: Returns a value of 0 always
+ * Return: Returns 0 (SUCCESS)
  */
 int main(void)
 {
-	writes("\_putchar");
+	char c = '_';
+	char c = 'p';
+	char c = 'u';
+	char c = 't';
+	char c = 'c';
+	char c = 'h';
+	char c = 'a';
+	char c = 'r';
 
 	return (0);
 }
