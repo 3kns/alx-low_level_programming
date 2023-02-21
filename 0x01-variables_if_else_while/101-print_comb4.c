@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-/**
+#include <unistd.h>
+ /**
  * main - Entry point
  *
  * main: "Entry point returns a value of 0"
@@ -11,23 +11,25 @@
  *
  * Return: "Always 0 (Success)"
  */
-int main(void)
+int main (void)
 {
-	int n, i;
+	int i, n, m;
 
-	for (i = 48; i <= 56; n++)
+	for (i = 48; i < 58; i++)
 	{
-		for (n = 49; n <= 57; n++)
+		for (n = 49; n < 58; n++)
 		{
-			if (n > i)
+			for (m = 50; m < 58; m++)
 			{
 				putchar(i);
 				putchar(n);
-			}
-			if (i != 56 || n != 57)
-			{
-				putchar(',');
-				putchar(' ');
+				putchar(m);
+
+				if (i != 55 || n != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
