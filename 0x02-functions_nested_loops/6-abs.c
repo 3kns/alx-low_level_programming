@@ -1,12 +1,11 @@
 #include "main.h"
 /**
  * _abs - entry point
- * @n: value to be returned
- * Return: n and -n
+ * @int: type of value to be returned
+ * Return: absolute value (success)
  */
 int _abs(int)
 {
-	int n;
 
 	if (n >= 0)
 	{
@@ -16,3 +15,4 @@ int _abs(int)
 	{
 		return (-n);
 	}
+}
