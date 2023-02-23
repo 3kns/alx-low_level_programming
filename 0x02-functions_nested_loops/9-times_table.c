@@ -4,7 +4,7 @@
  * @void: returns no value
  * Return: void
  */
-void time_table(void)
+void times_table(void)
 {
 	int i, j, k;
 
