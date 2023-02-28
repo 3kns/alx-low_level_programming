@@ -5,7 +5,7 @@
  * @src: declared variable
  * Return: dest variable (success)
  */
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 	int x = 0;

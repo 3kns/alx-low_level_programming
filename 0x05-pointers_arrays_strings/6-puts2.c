@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - funtion for printing only one character
- * @str - string involved
+ * @str: string involved
  */
 void puts2(char *str)
 {
